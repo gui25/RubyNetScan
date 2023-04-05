@@ -19,19 +19,25 @@ Para usar este projeto no Linux, certifique-se de ter instalado as seguintes dep
 
 Para instalar o Ruby e o nmap no Ubuntu/Debian, execute o seguinte comando:
 
+```powershell
 sudo apt-get install ruby nmap
+```
 
 No Fedora/CentOS/RHEL:
 
+```powershell
 sudo dnf install ruby nmap
+```
 
 No Arch Linux/Manjaro:
 
+```powershell
 sudo pacman -S ruby nmap
+```
 
 No Windows:
 
-Você pode baixar o Ruby em https://rubyinstaller.org/ e o nmap em https://nmap.org/download.html.
+    Você pode baixar o Ruby em https://rubyinstaller.org/ e o nmap em https://nmap.org/download.html.
 
 ## 💎 Instalação das dependências do Ruby
 
@@ -39,11 +45,15 @@ Este projeto utiliza um arquivo `Gemfile` para gerenciar as dependências do Rub
 
 1. Certifique-se de ter o Bundler instalado. Se não estiver instalado, execute o seguinte comando:
 
-gem install bundler
+    ```powershell
+    gem install bundler
+    ```
 
 2. Navegue até a pasta do projeto e execute o seguinte comando para instalar as dependências listadas no arquivo `Gemfile`:
 
-bundle install
+    ```powershell
+    bundle install
+    ```
 
 Isso instalará todas as gems necessárias para executar o projeto.
 
@@ -55,7 +65,9 @@ Isso instalará todas as gems necessárias para executar o projeto.
 
 3. Execute o script `main.rb` com o seguinte comando:
 
-ruby main.rb
+    ```powershell
+    ruby main.rb
+    ```
 
 4. Aguarde enquanto o script verifica sua rede e exibe os resultados.
 
@@ -72,5 +84,3 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE par
 ## 💖 Créditos
 
 Feito com ❤️ por [gui25](https://github.com/gui25). Agradecemos a todos os colaboradores e usuários deste projeto!
-
-
