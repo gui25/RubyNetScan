@@ -1,0 +1,13 @@
+*.tmp
+*.log
+*.swp
+*.swo
+*.cache
+
+scan_results.txt
+.ruby-lsp
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

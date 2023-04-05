@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ipaddr (1.2.5)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  ipaddr
+
+BUNDLED WITH
+   2.4.10
